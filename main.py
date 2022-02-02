@@ -6,7 +6,7 @@ def query():
     
     user_query = input('Enter Your Query: ')
 
-    URL = "https://www.google.co.in/search?q=" + user_query 
+    URL = "https://www.google.co.in/search?q=" + user_query + "linkedin"
     headers = {
     'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36'
     }
